@@ -4,6 +4,11 @@
     padding: 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+ul {
+    list-style-type: none;
+  }
+
 .navbar {
     background: rgb(20, 20, 20);
     height: 80px;
@@ -213,6 +218,15 @@
 
 .main__content {
     padding-right: 0px;
+    margin-left: 100px;
+}
+
+.main_content_img {
+    opacity: 50%;
+}
+
+.main_services_img {
+    opacity: 50%;
 }
 
 .main__content h1 {
@@ -300,7 +314,7 @@
     margin-top: 2rem;
     cursor: pointer;
     align-items: center;
-    margin-left: 130px;
+    margin-left: 70px;
     transition: all 0.35s;
 
     animation-name: bounce;
@@ -349,7 +363,9 @@
 .main__img--container{
     text-align: center;
     height: 300px;
+    width: auto;
     margin-bottom: 250px;
+    margin-left: 0;
 }
 
 #myVideo {
